@@ -8,10 +8,11 @@
 </head>
 <body>
     <h1>familiares Nico</h1>
-
-
-        <p>Nombre= {{nombre}} </p>
-        <p>Apellido= {{apellido}} </p>
-        <p>Edad= {{edad}}} </p>
+        {% for i in familiares %}
+        <p>Nombre= {{i.nombre}} </p>
+        <p>Apellido= {{i.apellido}} </p>
+        <p>Fecha_nacimiento= {{i.fecha_nacimiento}} </p>
+        <p>Edad= {{i.edad}} </p>
+        {% endfor %}
 </body>
 </html>

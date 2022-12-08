@@ -55,7 +55,7 @@ ROOT_URLCONF = 'proyecto11.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ["C:/Users/nicol/OneDrive/Documentos/practicagit/visual/miprimerproyecto/proyecto11/plantillas"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

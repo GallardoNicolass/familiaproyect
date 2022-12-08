@@ -16,8 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from AppEntregable.views import familia
+from AppEntregable.views import plantillarend
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("familia/", familia),
+    path("plantillarend/", plantillarend),
 ]
